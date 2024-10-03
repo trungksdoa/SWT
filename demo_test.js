@@ -28,7 +28,7 @@ Scenario("POST", async ({ I }) => {
   formData.append(
     "blog",
     JSON.stringify({
-      title: "This is a blog DEMO title V2333",
+      title: "This is a blog DEMO title: "+new Date().toISOString(),
       headerTop: "This is a blog DEMO header",
       contentTop: "This is a blog DEMO content",
       headerMiddle: "This is a blog DEMO header",
@@ -54,7 +54,7 @@ Scenario("PUT", async ({ I }) => {
   formData.append(
     "blog",
     JSON.stringify({
-      title: "This is a blog title",
+      title: "This is a blog DEMO title: "+new Date().toISOString(),
       headerTop: "This is a blog DEMO PUT header",
       contentTop: "This is a blog DEMO PUT content",
       headerMiddle: "This is a blog DEMO header",
