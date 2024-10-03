@@ -12,7 +12,7 @@ exports.config = {
   output: './output',
   helpers: {
     REST: {
-      endpoint: 'YOUR_API_ENDPOINT_HERE'
+      endpoint: 'https://koi-controls-e5hxekcpd0cmgjg2.eastasia-01.azurewebsites.net/'
     }
   },
   include: {
