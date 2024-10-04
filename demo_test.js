@@ -19,6 +19,7 @@ Before(async ({ I }) => {
 
 After(async ({ I }) => {
   //
+  console.log("Clean code");
 });
 
 //Kết thúc hook chung cho tất cả các scenario trong feature
