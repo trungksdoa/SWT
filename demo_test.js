@@ -69,7 +69,8 @@ Scenario("PUT", async ({ I }) => {
 });
 
 Scenario("DELETE", async ({ I }) => {
-
+  const response = await I.sendDeleteRequest("/api/blogs/" + blogId);
+  I.seeResponseCodeIsSuccessful();
 });
 
 Scenario("GET BY ID", async ({ I }) => {
